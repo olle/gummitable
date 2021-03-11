@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Gummitable - The way we like it!</title>
-        <style>
-            /* Static demo-page styling. */
-            html,
-            body {
-                height: 100%;
-                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-            }
-        </style>
-    </head>
-    <body>
-        <main>
-            <h1>Gummitable, loves to be resized!</h1>
-            <br />
-            <table data-is="gummitable">
-              <thead>
-                <tr>
-                  <th>One</th>
-                  <th>Two</th>
-                  <th>Three</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>Finger</td>
-                  <td>Singer</td>
-                </tr>
-                <tr>
-                  <td>2</td>
-                  <td>Lurker</td>
-                  <td>Pruner</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Diner</td>
-                  <td>Finer</td>
-                </tr>
-              </tbody>
-            </table>
-        </main>
-        <script type="module" src="/gummitable.js"></script>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gummitable - The way we like it!</title>
+    <style>
+      /* Static demo-page styling. */
+      html,
+      body {
+        height: 100%;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 120%;
+        padding: 1rem;
+      }
+      article {
+        border: 1px solid rgba(43, 123, 43, 0.4);
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gummitable!</h1>
+      <h2>loves to be resized!</h2>
+      <article>
+        <table data-is="gummitable">
+          <thead>
+            <tr>
+              <th>One</th>
+              <th>Two</th>
+              <th>Three</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Finger</td>
+              <td>Singer</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Lurker</td>
+              <td>Pruner</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Diner</td>
+              <td>Finer</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+    </main>
+    <script type="module" src="/gummitable.js"></script>
+  </body>
 </html>

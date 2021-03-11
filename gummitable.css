@@ -1,0 +1,28 @@
+.gummitable {
+}
+@media (max-width: 479px) {
+  .gummitable > thead {
+    display: none;
+  }
+  .gummitable,
+  .gummitable > tbody,
+  .gummitable > tbody > tr,
+  .gummitable > tbody > tr > td {
+    display: block;
+  }
+  .gummitable {
+    width: 100%;
+  }
+  .gummitable > tbody > tr {
+    margin-bottom: 1rem;
+  }
+  .gummitable > tbody > tr:last-child {
+    margin-bottom: initial;
+  }
+  .gummitable > tbody > tr > td:before {
+    display: inline-block;
+    content: attr(data-gummilabel);
+    font-weight: bold;
+    margin-right: 0.5rem;
+  }
+}
