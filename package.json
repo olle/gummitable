@@ -1,0 +1,20 @@
+{
+  "name": "gummitable",
+  "version": "0.0.1",
+  "description": "Really responsive and practical table styling.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olle/gummitable.git"
+  },
+  "browser": "gummitable.js",
+  "style": "gummitable.css",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.0.0"
+  }
+}
